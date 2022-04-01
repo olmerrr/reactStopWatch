@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-export default class App extends React.Component {
+export default class App extends Component {
 	state = {
 		count: 0,
 		isCounting: false,
